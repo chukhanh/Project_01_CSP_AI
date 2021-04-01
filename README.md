@@ -10,14 +10,9 @@
 
 
 ## Step
-    Install C++ on MacOs in Vscode
+    Install library Pytho
     ```
-    1. Launch Terminal by pressing command+space, type terminal and hit Enter key.
-    2. Run
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
-    3. Install
-        brew install mingw-w64
-    (or) 
-        brew install --build-from-source mingw-w64
+    python3 -m pip install name_library
     
     ```
+    Example: python3 -m pip install z3-solver
