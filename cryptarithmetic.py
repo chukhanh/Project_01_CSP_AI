@@ -51,6 +51,8 @@ def cryptarithmetic(filename, unique=True):
     # print(type(input))
     # print : SEND + MORE == MONEY
 
+    # str(solver.check()) == 'sat'
+    # it mean: check true
     while str(solver.check()) == 'sat' :
         solutions.append({ str(s): solver.model()[s] for w,s in words.items() })
         # print(solutions[-1])
