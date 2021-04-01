@@ -17,8 +17,10 @@ def main():
     outputFile.writelines("Solution: " + "\n")
     for line in outputSolutions:
         outputFile.writelines(str(line) + "\n")
-
-    outputFile.writelines("== " + str(len(outputSolutions)) + " solutions found in " + outputTime + "s ==")
+    if len(outputSolutions) == 0:
+        outputFile.writelines("No Solutions" + "\n")
+        outputFile.writelines("== " + "0 solutions found in " + outputTime + "s ==")
+    else: outputFile.writelines("== " + str(len(outputSolutions)) + " solutions found in " + outputTime + "s ==")
 
 if __name__ == '__main__': main()
 
