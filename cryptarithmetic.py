@@ -10,7 +10,9 @@ def cryptarithmetic(filename, unique=True):
     startTime = time.perf_counter()
     solver = Solver()
     tokenWords = re.findall(r'\b[a-zA-Z]\w*\b', input)
+    # tokenWords = sorted(tokenWords)
 
+    # print(type(input))
     letters = { i: Int(i) for i in list("".join(tokenWords))}
     # print(letters)
     # print: {'S': S, 'E': E, 'N': N, 'D': D, 'M': M, 'O': O, 'R': R, 'Y': Y}
@@ -54,14 +56,12 @@ def cryptarithmetic(filename, unique=True):
     # str(solver.check()) == 'sat'
     # it mean: check true
     while str(solver.check()) == 'sat' :
-        solutions.append({ str(s): solver.model()[s] for w,s in words.items() })
+        solutions.append({ str(s): solver.model()[s] for l,s in letters.items() })
         # print(solutions[-1])
         # {'SEND': 9567, 'MORE': 1085, 'MONEY': 10652}
-        solver.add(Or(*[ s != solver.model()[s] for w,s in words.items() ]))
-        # if limit and len(solutions) >= limit: break
+        solver.add(Or(*[ s != solver.model()[s] for l,s in letters.items() ]))
 
     runTime = round(time.perf_counter() - startTime, 1)
-    # print(f'== {len(solutions)} solutions found in {runTime}s ==\n')
     return solutions, runTime    
 
 
