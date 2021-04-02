@@ -65,18 +65,18 @@
     Level 3: Solve any kind of equation with multiple operands and single operator (+ - *).
 
     ```
-    Example Input: SO+MANY+MORE+MEN+SEEM+TO+SAY+THAT+ THEY+MAY+SOON+TRY+TO+STAY+AT+HOME+ SO+AS+TO+SEE+OR+HEAR+THE+SAME+ONE+ MAN+TRY+TO+MEET+THE+TEAM+ON+THE+ MOON+AS+HE+HAS+AT+THE+OTHER+TEN = TESTS
+    Example Input: SO + MANY + MORE + MEN + SEEM + TO + SAY + THAT +  THEY + MAY + SOON + TRY + TO + STAY + AT + HOME +  SO + AS + TO + SEE + OR + HEAR + THE + SAME + ONE +  MAN + TRY + TO + MEET + THE + TEAM + ON + THE +  MOON + AS + HE + HAS + AT + THE + OTHER + TEN = TESTS
 
     OutPut: 
     Given a cryptarithmetic problem: 
-    SO+MANY+MORE+MEN+SEEM+TO+SAY+THAT+ THEY+MAY+SOON+TRY+TO+STAY+AT+HOME+ SO+AS+TO+SEE+OR+HEAR+THE+SAME+ONE+ MAN+TRY+TO+MEET+THE+TEAM+ON+THE+ MOON+AS+HE+HAS+AT+THE+OTHER+TEN = TESTS
+    SO + MANY + MORE + MEN + SEEM + TO + SAY + THAT +  THEY + MAY + SOON + TRY + TO + STAY + AT + HOME +  SO + AS + TO + SEE + OR + HEAR + THE + SAME + ONE +  MAN + TRY + TO + MEET + THE + TEAM + ON + THE +  MOON + AS + HE + HAS + AT + THE + OTHER + TEN = TESTS
     Solution: 
     AEHMNORSTY = 7052618394
     == 1 solutions found in 133.8s ==
 
     ```
 
-    Level 4: Solve any kind of equation with multiple operands and operators (+ - *).
+    Level 4: Solve any kind of equation with multiple operands and operators ( +  - *).
 
     ```
     Example Input: SEND+(MORE+MONEY)-OR*DIE = NUOYI
