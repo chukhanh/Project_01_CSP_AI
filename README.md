@@ -20,7 +20,7 @@
 ## Form to Input.txt
 
     ```
-    SEND + MORE == MONEY
+    SEND + MORE = MONEY
     ```
 
 ## Run project
