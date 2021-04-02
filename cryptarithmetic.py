@@ -7,6 +7,7 @@ from z3 import *
 
 def cryptarithmetic(filename, unique=True):
     input = read.readfile(filename)
+    input = input.replace("=", "==")
     startTime = time.perf_counter()
     solver = Solver()
     tokenWords = re.findall(r'\b[a-zA-Z]\w*\b', input)

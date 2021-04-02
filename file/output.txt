@@ -1,6 +1,6 @@
 Given a cryptarithmetic problem: 
-SEND+(MORE+MONEY)-OR*DIE==NUOYI
+SEND+(MORE+MONEY)-OR*DIE = NUOYI
 Solution: 
-{'SEND': 1264, 'MORE': 8752, 'MONEY': 87623, 'OR': 75, 'DIE': 492, 'NUOYI': 60739}
-{'SEND': 4691, 'MORE': 8726, 'MONEY': 87965, 'OR': 72, 'DIE': 106, 'NUOYI': 93750}
-== 2 solutions found in 626.1s ==
+DEIMNORSUY = 4298675103
+DEIMNORSUY = 2986713504
+== 2 solutions found in 933.6s ==
