@@ -5,9 +5,7 @@ import re
 import math
 from z3 import *
 # import itertools
-# import operator
-from collections import OrderedDict
-from operator import itemgetter
+# import operator2
 
 
 def main():
