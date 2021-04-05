@@ -4,8 +4,7 @@ import cryptarithmetic as csp
 import re
 import math
 from z3 import *
-# import itertools
-# import operator2
+
 
 
 def main():
@@ -21,7 +20,7 @@ def main():
 
 
     # print(input) SEND + MORE == MONEY
-    # print(outputSolutions) [{'SEND': 9567, 'MORE': 1085, 'MONEY': 10652}]
+    # print(outputSolutions) [{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O': 0, 'R': 8, 'Y': 2}]
     # print(outputTime) 0.1
 
     outputFile = open(pathOutput(), "w")

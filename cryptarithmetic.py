@@ -5,9 +5,11 @@ from z3 import *
 
 # For Example: SEND + MORE == MONEY
 
+a:str = "="
+b:str = "==" 
 def cryptarithmetic(filename, unique=True):
     input = read.readfile(filename)
-    input = input.replace("=", "==")
+    input = input.replace(a, b)
     startTime = time.perf_counter()
     solver = Solver()
     tokenWords = re.findall(r'\b[a-zA-Z]\w*\b', input)

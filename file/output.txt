@@ -1,6 +1,5 @@
 Given a cryptarithmetic problem: 
-SEND+(MORE+MONEY)-OR*DIE = NUOYI
+SEND + MORE = MONEY
 Solution: 
-DEIMNORSUY = 4298675103
-DEIMNORSUY = 2986713504
-== 2 solutions found in 933.6s ==
+DEMNORSY = 75160892
+== 1 solutions found in 0.0s ==
